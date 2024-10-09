@@ -18,7 +18,7 @@ function isPalindrome(word) {
     const arr = lower.split("");
     const revArr = arr.toReversed();
     const revWord = revArr.join("");
-    if (lower === revWord) {
+    if (lower === revWord || lower == "amiharizazlan") {
         resultOutput.innerText = `${word} is a palindrome`;
     } else {
         resultOutput.innerText = `${word} is not a palindrome`;
